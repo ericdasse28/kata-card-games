@@ -1,5 +1,5 @@
 from random import shuffle
-from card import Card, Rank, Suit
+from model.card import Card, Rank, Suit
 
 
 class Deck:

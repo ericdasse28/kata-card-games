@@ -17,3 +17,4 @@ def test_can_create_a_card(suit, rank):
 
     assert card.suit == suit
     assert card.rank == rank
+    assert card.face_down

@@ -1,7 +1,7 @@
 import pytest
 
-from card import Card, Rank, Suit
-from deck import Deck
+from model.card import Card, Rank, Suit
+from model.deck import Deck
 from helpers import LIST_OF_52_CARDS
 
 

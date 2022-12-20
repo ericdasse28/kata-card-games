@@ -1,4 +1,4 @@
-from card import Card, Rank, Suit
+from model.card import Card, Rank, Suit
 
 
 LIST_OF_52_CARDS = [

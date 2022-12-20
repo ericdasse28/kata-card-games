@@ -1,5 +1,5 @@
 from model.deck import Deck
-from helpers import LIST_OF_52_CARDS
+from tests.model.helpers import LIST_OF_52_CARDS
 
 
 def test_can_create_52_cards_deck():

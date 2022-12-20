@@ -28,6 +28,7 @@ class Card:
     def __init__(self, suit: Suit, rank: Rank):
         self.suit = suit
         self.rank = rank
+        self.face_down = True
 
     def __eq__(self, other_card):
         return self.suit == other_card.suit and self.rank == other_card.rank
